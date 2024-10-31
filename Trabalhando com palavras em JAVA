@@ -1,0 +1,11 @@
+public class Palavras {
+    public static void main(String [] args){
+        char letra = 'G';
+        String palavra = "abriel";
+
+        String mensagem = "A letra é " + letra + " , a palavra é "+ letra + palavra;
+
+        System.out.println(mensagem);
+
+    }
+}
