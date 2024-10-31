@@ -1,0 +1,10 @@
+public class Produtos {
+    public static void main(String [] args){
+        double precoProduto = 67.90;
+        int quantidade = 3;
+
+        double valorTotal = precoProduto * quantidade;
+
+        System.out.println("O preço do produto é: " + valorTotal);
+    }
+}
