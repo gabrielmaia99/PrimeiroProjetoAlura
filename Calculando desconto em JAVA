@@ -1,0 +1,13 @@
+public class CalculoDesconto {
+    public static void main(String [] args){
+        double precoOriginal = 190;
+        double percentualDeDesconto = 10;
+
+        double valorDoDesconto = (percentualDeDesconto / 100) * precoOriginal;
+        double precoNovo = precoOriginal - valorDoDesconto;
+
+        System.out.println("Preço original é: R$" + precoOriginal);
+        System.out.println("Desconto: R$" + valorDoDesconto);
+        System.out.println("Novo preço é: R$" + precoNovo);
+    }
+}
