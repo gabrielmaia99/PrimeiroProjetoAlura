@@ -1,0 +1,11 @@
+public class ConversaodeProdutos {
+    public static void main( String [] args){
+        double valorEmDolarares = 100.97;
+        double taxaDeConversao = 4.94;
+
+        double valoresEmReias = valorEmDolarares * taxaDeConversao;
+
+        System.out.println("O valor convertido do produto é: R$" + valoresEmReias);
+
+    }
+}
